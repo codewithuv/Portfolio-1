@@ -69,18 +69,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
+            
 
             <Nav.Item>
               <Nav.Link
@@ -94,7 +83,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,12 +93,12 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/codewithuv"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+              <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+              <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>
